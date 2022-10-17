@@ -1,0 +1,126 @@
+﻿<Window x:Class="wdCadProdutos"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Cadastro de Produtos" Height="600" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <Window.Resources>
+        <CollectionViewSource x:Key="ProdutosViewSource" Source="{Binding Produto}" />
+        <CollectionViewSource x:Key="ProdutoViewSource" Source="{Binding Produto}" />
+    </Window.Resources>
+
+    <Grid Background="#FF9C9C9C">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="{DynamicResource cor-titulo}">
+            <Label x:Name="TituloLBL" Content="- Cadastro de Produtos" HorizontalAlignment="Stretch" Margin="0,0,0,0" FontWeight="ExtraBold" FontSize="22" Foreground="White" FontFamily="Segoe UI Black"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="160"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Label x:Name="CodLbl" Content="Código: " HorizontalAlignment="Stretch" Margin="0,0,0,0" FontWeight="Bold" FontSize="14"  />
+                <TextBox x:Name="CodTxt" Margin="5,23,0,0" TextAlignment="Right" TabIndex="0" Style="{StaticResource TextBox}"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Label x:Name="DescricaoLbl" Content="Descrição do Produto:" HorizontalAlignment="Left" Margin="0,0,0,0" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <TextBox x:Name="DescricaoTxt" Margin="5,23,0,0" TabIndex="1" Style="{StaticResource TextBox}"/>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Label x:Name="DataLbl" Content="Data Cadastro:" HorizontalAlignment="Stretch" Margin="0,0,0,0" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <DatePicker x:Name="DataTxt" HorizontalAlignment="Stretch" Margin="5,23,0,0" TabIndex="2"  BorderBrush="#FF4B4B4B" FontWeight="Bold" />
+            </Grid>
+            <Grid Grid.Column="3">
+                <GroupBox x:Name="EstoqueGrp" Header="Movimenta Estoque" HorizontalAlignment="Stretch" Margin="5,0,5,0" FontFamily="Calibri" FontSize="14" FontWeight="Bold" BorderBrush="#FF4B4B4B">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="14*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton x:Name="SimRdb" Content="Sim" HorizontalAlignment="Left" Margin="5,5,0,0" FontWeight="Normal" IsChecked="True" TabIndex="4" IsTabStop="False"/>
+                        <RadioButton x:Name="NaoRdb" Content="Não" HorizontalAlignment="Right" Margin="0,5,0,0" FontWeight="Normal" Grid.Column="2" TabIndex="5" IsTabStop="False"/>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Label x:Name="GrupoLbl" Content="Grupo:" HorizontalAlignment="Stretch" Margin="0,0,0,0" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <TextBox x:Name="GrupoTxt" Margin="5,23,0,0" TabIndex="6" Style="{StaticResource TextBox}"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Label x:Name="TipoLbl" Content="Tipo de Produto:" HorizontalAlignment="Stretch" Margin="0,0,0,0" FontFamily="Calibri" FontSize="14" FontWeight="Bold"/>
+                <ComboBox x:Name="TipoCmb" HorizontalAlignment="Stretch" Margin="5,23,0,0" TabIndex="7" BorderBrush="#FF4B4B4B" FontWeight="Bold" >
+                    <ComboBoxItem Content="MATERIA PRIMA"/>
+                    <ComboBoxItem Content="ACABADO"/>
+                    <ComboBoxItem Content="EMBALAGEM"/>
+                    <ComboBoxItem Content="INSUMO"/>
+                </ComboBox>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Label x:Name="CustoLbl" Content="Custo R$: " HorizontalAlignment="Stretch" Margin="0,0,0,0" FontSize="14" Foreground="Black" FontFamily="Calibri" FontWeight="Bold"/>
+                <TextBox x:Name="CustoTxt" Margin="5,23,0,0" TextAlignment="Right" TabIndex="8" Style="{StaticResource TextBox}"/>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Label x:Name="MargemLbl" Content="Margem %: " HorizontalAlignment="Stretch" Margin="0,0,0,0" FontSize="14" Foreground="Black" FontFamily="Calibri" FontWeight="Bold"/>
+                <TextBox x:Name="MargemTxt" Margin="5,23,0,0" TextAlignment="Right" TabIndex="9" Style="{StaticResource TextBox}"/>
+            </Grid>
+            <Grid Grid.Column="4">
+                <Label x:Name="PrecoLbl" Content="Preço R$: " HorizontalAlignment="Stretch" Margin="0,0,0,0" FontSize="14" Foreground="Black" FontFamily="Calibri" FontWeight="Bold"/>
+                <TextBox x:Name="PrecoTxt" Margin="5,23,0,0" TextAlignment="Right" Style="{StaticResource TextBox}"/>
+            </Grid>
+            <Grid Grid.Column="5">
+                <CheckBox Content="INATIVO" x:Name="InativoChk" Margin="5,25,5,0" FontWeight="Bold" BorderBrush="#FF4B4B4B"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3">
+            <DataGrid HorizontalAlignment="Stretch" x:Name="ProdutoDataGrid" Margin="5,5,5,5" BorderBrush="#FF4B4B4B" SelectionChanged="DataGrid_SelectionChanged_1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Código" Width="60"/>
+                    <DataGridTextColumn Header="Descrição do Produto" Width="*"/>
+                    <DataGridTextColumn Header="Grupo" Width="150"/>
+                    <DataGridTextColumn Header="Custo R$" Width="80"/>
+                    <DataGridTextColumn Header="Preço R$" Width="80"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="4" HorizontalAlignment="Stretch" Background="{DynamicResource cor-rodape}">
+            <Grid Grid.Row="0" HorizontalAlignment="Right">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="90"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Button x:Name="NovoBtn" Content="Novo [F2]" HorizontalAlignment="Stretch" Margin="0,5,5,5" FontWeight="SemiBold" FontSize="14" Background="white"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Button x:Name="SalvarBtn" Content="Salvar [F3]" HorizontalAlignment="Stretch" Margin="0,5,5,5" FontWeight="SemiBold" FontSize="14" Background="white"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Button x:Name="ExcluirBtn" Content="Excluir [F4]" HorizontalAlignment="Stretch" Margin="0,5,5,5" FontWeight="SemiBold" FontSize="14" Background="white"/>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Button x:Name="SairBtn" Content="Sair [ESC]" HorizontalAlignment="Stretch" Margin="0,5,5,5" FontWeight="SemiBold" FontSize="14" Background="#FFA2A2A2"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

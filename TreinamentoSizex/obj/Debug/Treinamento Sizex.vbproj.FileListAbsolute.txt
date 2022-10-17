@@ -1,0 +1,34 @@
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadProdutos.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadProdutos.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\MainWindow.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Application.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.g.resources
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.Resources.resources
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Treinamento Sizex.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.xml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.pdb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.exe.config
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.exe
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.pdb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.xml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.exe
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadClientes.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadClientes.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Cadastros\ucCadFotos.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Cadastros\ucCadFotos.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Cadastros\ucCadVeiculos.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Cadastros\ucCadVeiculos.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\cttextbox.dll
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\WPFToolkit.dll
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\cttextbox.pdb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\cttextbox.xml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\WPFToolkit.pdb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Treinamento Sizex.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Treinamento Sizex\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.exe.config
+C:\Users\Administrator\Desktop\Treinamento Sizex\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.exe
+C:\Users\Administrator\Desktop\Treinamento Sizex\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.xml
+C:\Users\Administrator\Desktop\Treinamento Sizex\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.pdb

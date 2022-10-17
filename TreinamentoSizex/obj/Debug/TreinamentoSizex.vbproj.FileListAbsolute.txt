@@ -1,0 +1,50 @@
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.exe.config
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.exe
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.pdb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.xml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\MainWindow.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Application.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.g.resources
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.Resources.resources
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.exe
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.xml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.pdb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadCliente.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadCliente.g.vb
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadProdutos.baml
+C:\Users\Administrator\Desktop\Git\CadastroClientes\CadastroClientes\obj\Debug\Janelas\wdCadProdutos.g.vb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\cttextbox.dll
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\WPFToolkit.dll
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\cttextbox.pdb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\cttextbox.xml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\WPFToolkit.pdb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Cadastros\ucCadFotos.baml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Cadastros\ucCadVeiculos.baml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Janelas\wdCadClientes.baml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Janelas\wdCadProdutos.baml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Cadastros\ucCadFotos.g.vb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Cadastros\ucCadVeiculos.g.vb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Janelas\wdCadClientes.g.vb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Janelas\wdCadProdutos.g.vb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\MainWindow.g.vb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Application.g.vb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\TreinamentoSizex.exe.config
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex.exe
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex.xml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex.pdb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Estilo.baml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex.g.resources
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\TreinamentoSizex.Resources.resources
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\TreinamentoSizex.exe
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\TreinamentoSizex.pdb
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\bin\Debug\TreinamentoSizex.xml
+C:\Users\Administrator\Desktop\Treinamento Sizex\TreinamentoSizex\TreinamentoSizex\obj\Debug\Application.baml

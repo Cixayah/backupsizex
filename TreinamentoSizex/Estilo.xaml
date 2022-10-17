@@ -1,0 +1,132 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ctTextBox="clr-namespace:ctTextBox;assembly=ctTextBox">
+
+
+    <Color x:Key="bg-cor-titulo">#006388</Color>
+    <Color x:Key="bg-cor-rodape">#f5d323</Color>
+    <Color x:Key="bg-cor-menu">#6b6b87</Color>
+
+    <Color x:Key="bg-primary-light">#FF2a2c3b</Color>
+    <Color x:Key="bg-primary">#FF2a2c3b</Color>
+    <Color x:Key="bg-secondary">#FF0b0686</Color>
+    <Color x:Key="bg-success-light">#FF0ee27a</Color>
+    <Color x:Key="bg-success">#FF00aa57</Color>
+    <Color x:Key="bg-danger-light">#FFff4d5d</Color>
+    <Color x:Key="bg-danger">#FFc82333</Color>
+    <Color x:Key="bg-warning">#FFfFFF00</Color>
+    <Color x:Key="bg-info">#FFff8b00</Color>
+    <Color x:Key="bg-light">#FFeff3f6</Color>
+    <Color x:Key="bg-white">#FFFFFFFF</Color>
+    <Color x:Key="bg-gray-light">#FFbbbbbb</Color>
+    <Color x:Key="bg-gray">#FFcccccc</Color>
+    <Color x:Key="bg-dark">#FF343a40</Color>
+    <Color x:Key="bg-black">#FF111111</Color>
+
+    <SolidColorBrush x:Key="cor-titulo" Color="{DynamicResource bg-cor-titulo}"/>
+    <SolidColorBrush x:Key="cor-rodape" Color="{DynamicResource bg-cor-rodape}"/>
+    <SolidColorBrush x:Key="cor-menu" Color="{DynamicResource bg-cor-menu}"/>
+
+    <SolidColorBrush x:Key="primary-light" Color="{DynamicResource bg-primary-light}"/>
+    <SolidColorBrush x:Key="primary" Color="{DynamicResource bg-primary}"/>
+    <SolidColorBrush x:Key="secondary" Color="{DynamicResource bg-secondary}"/>
+    <SolidColorBrush x:Key="success-light" Color="{DynamicResource bg-success-light}"/>
+    <SolidColorBrush x:Key="success" Color="{DynamicResource bg-success}"/>
+    <SolidColorBrush x:Key="danger-light" Color="{DynamicResource bg-danger-light}"/>
+    <SolidColorBrush x:Key="danger" Color="{DynamicResource bg-danger}"/>
+    <SolidColorBrush x:Key="warning" Color="{DynamicResource bg-warning}"/>
+    <SolidColorBrush x:Key="info" Color="{DynamicResource bg-info}"/>
+    <SolidColorBrush x:Key="light" Color="{DynamicResource bg-light}"/>
+    <SolidColorBrush x:Key="white" Color="{DynamicResource bg-white}"/>
+    <SolidColorBrush x:Key="gray-light" Color="{DynamicResource bg-gray-light}"/>
+    <SolidColorBrush x:Key="gray" Color="{DynamicResource bg-gray}"/>
+    <SolidColorBrush x:Key="dark" Color="{DynamicResource bg-dark}"/>
+    <SolidColorBrush x:Key="black" Color="{DynamicResource bg-black}"/>
+
+    <!--WINDOW-->
+    <Style x:Key="MainWindow" TargetType="{x:Type Window}">
+        <Setter Property="WindowStyle" Value="None" />
+        <Setter Property="WindowState" Value="Maximized" />
+        <Setter Property="BorderBrush" Value="{StaticResource primary}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Title" Value="Treinamento - Sizex"/>
+    </Style>
+
+    <Style x:Key="Window" TargetType="{x:Type Window}">
+        <Setter Property="Background" Value="{StaticResource light}" />
+        <Setter Property="BorderBrush" Value="{StaticResource primary}" />
+        <Setter Property="WindowStyle" Value="None" />
+        <Setter Property="ResizeMode" Value="CanResize"/>
+    </Style>
+
+    <!--GRID-->
+    <Style x:Key="GridTitulo" TargetType="Grid">
+        <Setter Property="Background" Value="{StaticResource primary}"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="Width" Value="auto" />
+    </Style>
+    <Style x:Key="GridMargin" TargetType="Grid">
+        <Setter Property="Margin" Value="0,0,0,5" />
+    </Style>
+
+    <!--CONTROLES TEXTBOX-->
+
+
+
+    <Style x:Key="TextBox" TargetType="{x:Type TextBox}">
+        <Setter Property="Width" Value="auto"/>
+        <Setter Property="CharacterCasing" Value="Upper"/>
+        <Setter Property="Padding" Value="2,2"/>
+        <Setter Property="SelectionBrush" Value="{DynamicResource primary}"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="CaretBrush" Value="{DynamicResource black}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TextBoxBase}">
+                    <Border Name="Border" CornerRadius="2" Padding="0" BorderThickness="1" Height="auto">
+                        <Border.Background>
+                            <SolidColorBrush Color="{DynamicResource bg-white}" />
+                        </Border.Background>
+                        <Border.BorderBrush>
+                            <SolidColorBrush Color="#FF2E235F" />
+                        </Border.BorderBrush>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStats">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="Disable">
+                                    <Storyboard>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+                                            <EasingColorKeyFrame KeyTime="0" Value="#eeeeee" />
+                                        </ColorAnimationUsingKeyFrames>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)">
+                                            <EasingColorKeyFrame KeyTime="0" Value="#aaaaaa" />
+                                        </ColorAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="ReadOnly"/>
+                                <VisualState x:Name="MouseOver"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ScrollViewer Margin="0" x:Name="PART_ContentHost" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType= "ctTextBox:ctAutoComplete"  x:Key="TextboxStyle2">
+        <Setter Property="TextBoxStyle" Value="{StaticResource TextBox}" />
+        <!--<Setter Property="BorderBrush" Value="{StaticResource primary}" />-->
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Width" Value="auto" />
+        <Setter Property="Padding" Value="2,2" />
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="IsTextCompletionEnabled" Value="True" />
+
+    </Style>
+</ResourceDictionary>
